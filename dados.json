@@ -1,784 +1,446 @@
 [
   {
     "photo": "imagens/Ana.png",
-    "name": "Ana Silva",
-    "data_1": "2° Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Ana Silva"
     },
     {
     "photo": "imagens/Anderson.png",
-    "name": "Anderson Schwanka",
-    "data_1": "1° Andar",
-    "data_2": "Adm",
-    "data_3": "Frente"
+    "name": "Anderson Schwanka"
     },
     {
     "photo": "imagens/Andre.png",
-    "name": "André Artigas",
-    "data_1": "3º Andar",
-    "data_2": "Inovação",
-    "data_3": "Fundos"
+    "name": "André Artigas"
     },
     {
     "photo": "imagens/Andrea.png",
-    "name": "Andrea Inácio",
-    "data_1": "1° Andar",
-    "data_2": "Via Turismo",
-    "data_3": "Frente"
+    "name": "Andrea Inácio"
     },
     {
     "photo": "imagens/Angel.png",
-    "name": "Angel Carvajal",
-    "data_1": "2° Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Angel Carvajal"
     },
     {
     "photo": "imagens/Barbara Silva.png",
-    "name": "Barbara Silva",
-    "data_1": "2° Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Barbara Silva"
     }, 
     {
     "photo": "imagens/Brenda.png",
-    "name": "Brenda Borges",
-    "data_1": "3º Andar",
-    "data_2": "Comunicação",
-    "data_3": "Fundos"
+    "name": "Brenda Borges"
     },
     {
     "photo": "imagens/Camila.png",
-    "name": "Camila Zanforlin",
-    "data_1": "3º Andar",
-    "data_2": "Designer UX",
-    "data_3": "Fundos"
+    "name": "Camila Zanforlin"
     },
     {
     "photo": "imagens/Camila Leal.png",
-    "name": "Camila Leal",
-    "data_1": "3º Andar",
-    "data_2": "Comunicação",
-    "data_3": "Fundos"
+    "name": "Camila Leal"
     },
     {
     "photo": "imagens/Camille.png",
-    "name": "Camille Martinez",
-    "data_1": "2° Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Camille Martinez"
     },
     {
     "photo": "imagens/Cadu.png",
-    "name": "Carlos Coelho",
-    "data_1": "2° Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Carlos Coelho"
     },
     {
     "photo": "imagens/Caroline Rocha.png",
-    "name": "Caroline Rocha",
-    "data_1": "2° Andar",
-    "data_2": "Leads",
-    "data_3": "Fundos"
+    "name": "Caroline Rocha"
     },
     {
     "photo": "imagens/Carol.png",
-    "name": "Caroline Evangelista",
-    "data_1": "1° Andar",
-    "data_2": "Adm",
-    "data_3": "Frente"
+    "name": "Caroline Evangelista"
     },
     {
     "photo": "imagens/Cibele.png",
-    "name": "Cibele Verdasca ",
-    "data_1": "1° Andar",
-    "data_2": "Diretoria",
-    "data_3": "Fundos"
+    "name": "Cibele Verdasca "
     },
     {
     "photo": "imagens/Claudia.png",
-    "name": "Claudia Sapala",
-    "data_1": "1° Andar",
-    "data_2": "Financeiro",
-    "data_3": "Frente"
+    "name": "Claudia Sapala"
     },
     {
     "photo": "imagens/Claudio.png",
-    "name": "Claudio Chiapin",
-    "data_1": "1° Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Claudio Chiapin"
     },
     {
     "photo": "imagens/Chris.png",
-    "name": "Christiane Cionek",
-    "data_1": "1° Andar",
-    "data_2": "Adm",
-    "data_3": "Frente"
+    "name": "Christiane Cionek"
     },
     {
     "photo": "imagens/Corina.png",
-    "name": "Corina Mitani",
-    "data_1": "3º andar",
-    "data_2": "Design",
-    "data_3": "Fundos"
+    "name": "Corina Mitani"
     },
     {
     "photo": "imagens/Cris.png",
-    "name": "Cristiane Pereira",
-    "data_1": "1° Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Cristiane Pereira"
     },
     {
     "photo": "imagens/Dani Mengarda.png",
-    "name": "Daniele Mengarda",
-    "data_1": "2° Andar",
-    "data_2": "Leads",
-    "data_3": "Fundos"
+    "name": "Daniele Mengarda"
     },
     {
     "photo": "imagens/Dani.png",
-    "name": "Daniele Schwab ",
-    "data_1": "1° Andar",
-    "data_2": "Via Turismo",
-    "data_3": "Frente"
+    "name": "Daniele Schwab "
     },
     {
     "photo": "imagens/Danndry.png",
-    "name": "Danndriely Mafra",
-    "data_1": "3º Andar",
-    "data_2": "Comunicação",
-    "data_3": "Fundos"
+    "name": "Danndriely Mafra"
     },
     {
     "photo": "imagens/Denys.png",
-    "name": "Denys Carmo",
-    "data_1": "3º Andar",
-    "data_2": "Design",
-    "data_3": "Fundos"
+    "name": "Denys Carmo"
     },
     {
     "photo": "imagens/Diogo.png",
-    "name": "Diogo Gruber",
-    "data_1": "3º Andar",
-    "data_2": "Design",
-    "data_3": "Fundos"
+    "name": "Diogo Gruber"
     },
     {
     "photo": "imagens/Douglas.png",
-    "name": "Douglas Amaral",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Douglas Amaral"
     },
     {
     "photo": "imagens/Eduardo.png",
-    "name": "Eduardo Devitte",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Eduardo Devitte"
     },
     {
     "photo": "imagens/Elier.png",
-    "name": "Elier Santana",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Elier Santana"
     },
     {
     "photo": "imagens/Elisandra.png",
-    "name": "Elisandra Marques",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Elisandra Marques"
     },
     {
     "photo": "imagens/Emanuele Rocha.png",
-    "name": "Emanuele Rocha",
-    "data_1": "1º Andar",
-    "data_2": "Desenvolvimento de Pessoas",
-    "data_3": "Fundos"
+    "name": "Emanuele Rocha"
     },
     {
     "photo": "imagens/Manu.png",
-    "name": "Emanueli Andres",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Emanueli Andres"
     },
     {
     "photo": "imagens/Manu Matos.png",
-    "name": "Emmanuelle Matos",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Emmanuelle Matos"
     },
     {
     "photo": "imagens/Emily Santos.png",
-    "name": "Emily dos Santos",
-    "data_1": "1º Andar",
-    "data_2": "Financeiro",
-    "data_3": "Frente"
+    "name": "Emily dos Santos"
     },
     {
     "photo": "imagens/Emily.png",
-    "name": "Emily Skrusinski",
-    "data_1": "3º Andar",
-    "data_2": "Exclusive Lounge",
-    "data_3": "Frente"
+    "name": "Emily Skrusinski"
     },
     {
     "photo": "imagens/Evelin.png",
-    "name": "Evelin de Oliveira",
-    "data_1": "3º Andar",
-    "data_2": "Inteligência",
-    "data_3": "Frente"
+    "name": "Evelin de Oliveira"
     },
     {
     "photo": "imagens/Fer Amaral.png",
-    "name": "Fernanda Amaral",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Fernanda Amaral"
     },
     {
     "photo": "imagens/Fer Siqueira.png",
-    "name": "Fernanda Siqueira",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Fernanda Siqueira"
     },
     {
     "photo": "imagens/Fer Riby.png",
-    "name": "Fernanda Riby",
-    "data_1": "1º Andar",
-    "data_2": "Desenvolvimento de Pessoas",
-    "data_3": "Fundos"
+    "name": "Fernanda Riby"
     },
     {
     "photo": "imagens/Fernando.png",
-    "name": "Fernando Sobutka",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Fernando Sobutka"
     },
     {
     "photo": "imagens/Fran.png",
-    "name": "Francieli Amaral",
-    "data_1": "1º Andar",
-    "data_2": "Diretoria",
-    "data_3": "Fundos"
+    "name": "Francieli Amaral"
     },
     {
     "photo": "imagens/Fred.png",
-    "name": "Frederico Posnik",
-    "data_1": "3º Andar",
-    "data_2": "Inteligência",
-    "data_3": "Frente"
+    "name": "Frederico Posnik"
     },
     {
     "photo": "imagens/Gabriel Luz.png",
-    "name": "Gabriel Luz",
-    "data_1": "1º Andar",
-    "data_2": "Financeiro",
-    "data_3": "Frente"
+    "name": "Gabriel Luz"
     }, 
     {
     "photo": "imagens/Gabi Siqueira.png",
-    "name": "Gabriela Siqueira",
-    "data_1": "2º Andar",
-    "data_2": "Leads",
-    "data_3": "Fundos"
+    "name": "Gabriela Siqueira"
     },
     {
     "photo": "imagens/Gabi Faria.png",
-    "name": "Gabriela Faria",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Gabriela Faria"
     },
     {
     "photo": "imagens/Gabriela Tavares.png",
-    "name": "Gabriela Tavares",
-    "data_1": "1º Andar",
-    "data_2": "Aprendiz",
-    "data_3": "Fundos"
+    "name": "Gabriela Tavares"
     },
     {
     "photo": "imagens/Gabriele.png",
-    "name": "Gabriele Silva",
-    "data_1": "3º Andar",
-    "data_2": "Comunicação",
-    "data_3": "Fundos"
+    "name": "Gabriele Silva"
     },
     {
     "photo": "imagens/Geovana.png",
-    "name": "Geovana Guimarães",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Geovana Guimarães"
     },
     {
     "photo": "imagens/Gilberto.png",
-    "name": "Gilberto Junqueira",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Gilberto Junqueira"
     },
     {
     "photo": "imagens/Grazi.png",
-    "name": "Graziele Schwab ",
-    "data_1": "1º Andar",
-    "data_2": "Via Turismo",
-    "data_3": "Frente"
+    "name": "Graziele Schwab "
     },
     {
     "photo": "imagens/Guilherme Assunção.png",
-    "name": "Guilherme Assunção",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Guilherme Assunção"
     },
     {
     "photo": "imagens/Guilherme.png",
-    "name": "Guilherme Heibel",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Guilherme Heibel"
     },
     {
     "photo": "imagens/Gustavao Ramirez.png",
-    "name": "Gustavo Ramirez",
-    "data_1": "1º Andar",
-    "data_2": "Adm",
-    "data_3": "Frente"
+    "name": "Gustavo Ramirez"
     },
     {
     "photo": "imagens/Henrique.png",
-    "name": "Henrique Cordeiro",
-    "data_1": "3º Andar",
-    "data_2": "Design",
-    "data_3": "Fundos"
+    "name": "Henrique Cordeiro"
     },
     {
     "photo": "imagens/Hilton.png",
-    "name": "Hilton Júnior",
-    "data_1": "3º Andar",
-    "data_2": "Inteligência",
-    "data_3": "Frente"
+    "name": "Hilton Júnior"
     },
     {
     "photo": "imagens/Isabel.png",
-    "name": "Isabel Mazzei",
-    "data_1": "1º Andar",
-    "data_2": "Adm",
-    "data_3": "Frente"
+    "name": "Isabel Mazzei"
     },
     {
     "photo": "imagens/Isa Polidoro.png",
-    "name": "Isabella Polidoro",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Isabella Polidoro"
     },
     {
     "photo": "imagens/Isa Baumel.png",
-    "name": "Isabella Baumel",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Isabella Baumel"
     },  
     {
     "photo": "imagens/Jéssica.png",
-    "name": "Jessica Frey",
-    "data_1": "1º Andar",
-    "data_2": "Adm",
-    "data_3": "Frente"
+    "name": "Jessica Frey"
     },
     {
     "photo": "imagens/Jonatas.png",
-    "name": "Jônatas Pors",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Jônatas Pors"
     },
     {
     "photo": "imagens/José Neto.png",
-    "name": "José Neto",
-    "data_1": "2º Andar",
-    "data_2": "Leads",
-    "data_3": "Fundos"
+    "name": "José Neto"
     },
     {
     "photo": "imagens/Josiane.png",
-    "name": "Josiane Silva",
-    "data_1": "1º Andar",
-    "data_2": "Adm",
-    "data_3": "Frente"
+    "name": "Josiane Silva"
     },
     {
     "photo": "imagens/Julia Haber.png",
-    "name": "Julia Haber",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Julia Haber"
     },
     {
     "photo": "imagens/Julia Castilho.png",
-    "name": "Julia Castilho",
-    "data_1": "3º Andar",
-    "data_2": "Inovação",
-    "data_3": "Fundos"
+    "name": "Julia Castilho"
     },
     {
     "photo": "imagens/Ju Simette.png",
-    "name": "Juliana Simette",
-    "data_1": "3º Andar",
-    "data_2": "Marketing",
-    "data_3": "Fundos"
+    "name": "Juliana Simette"
     },
     {
     "photo": "imagens/Jully.png",
-    "name": "Jully Castro",
-    "data_1": "1º Andar",
-    "data_2": "Assistente Presidência",
-    "data_3": "Fundos"
+    "name": "Jully Castro"
     },
     {
     "photo": "imagens/Juvenal.png",
-    "name": "Juvenal Márquez",
-    "data_1": "3º Andar",
-    "data_2": "Comunicação",
-    "data_3": "Fundos"
+    "name": "Juvenal Márquez"
     },
     {
     "photo": "imagens/Karla.png",
-    "name": "Karla Sanchez",
-    "data_1": "2º Andar",
-    "data_2": "Leads",
-    "data_3": "Fundos"
+    "name": "Karla Sanchez"
     },
     {
     "photo": "imagens/Karol.png",
-    "name": "Karolina Kowalczuck",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Karolina Kowalczuck"
     },
     {
     "photo": "imagens/Larissa.png",
-    "name": "Larissa Nowitschenko",
-    "data_1": "3º Andar",
-    "data_2": "Comunicação",
-    "data_3": "Fundos"
+    "name": "Larissa Nowitschenko"
     },
     {
     "photo": "imagens/Leao.png",
-    "name": "Leão Junior",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Leão Junior"
     },
     {
     "photo": "imagens/Leonardo Guevara.png",
-    "name": "Leonardo Guevara",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Leonardo Guevara"
     },
     {
     "photo": "imagens/Litiane.png",
-    "name": "Litiane Furlan",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Litiane Furlan"
     },
     {
     "photo": "imagens/Lorena.png",
-    "name": "Lorena Gabeloni",
-    "data_1": "2º Andar",
-    "data_2": "Relacionamento",
-    "data_3": "Fundos"
+    "name": "Lorena Gabeloni"
     },
     {
     "photo": "imagens/Louise.png",
-    "name": "Louise Matzenbacher",
-    "data_1": "1º Andar",
-    "data_2": "Diretoria",
-    "data_3": "Fundos"
+    "name": "Louise Matzenbacher"
     },
     {
     "photo": "imagens/Luana.png",
-    "name": "Luana Ribeiro",
-    "data_1": "3º Andar",
-    "data_2": "Exclusive Lounge",
-    "data_3": "Frente"
+    "name": "Luana Ribeiro"
     },
     {
     "photo": "imagens/Lucas.png",
-    "name": "Lucas Teter",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Lucas Teter"
     },
     {
     "photo": "imagens/Luiz.png",
-    "name": "Luiz Alberto Matzenbacher",
-    "data_1": "1º Andar",
-    "data_2": "Presidência",
-    "data_3": "Fundos"
+    "name": "Luiz Alberto Matzenbacher"
     },
     {
     "photo": "imagens/Guga.png",
-    "name": "Luiz Gustavo Matzenbacher",
-    "data_1": "1º Andar",
-    "data_2": "Diretoria",
-    "data_3": "Fundos"
+    "name": "Luiz Gustavo Matzenbacher"
     },
     {
     "photo": "imagens/Manoele.png",
-    "name": "Manoele Silva",
-    "data_1": "2º Andar",
-    "data_2": "Leads",
-    "data_3": "Fundos"
+    "name": "Manoele Silva"
     },
     {
     "photo": "imagens/Marcela.png",
-    "name": "Marcela Cardoso",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Marcela Cardoso"
     },
     {
     "photo": "imagens/Chico.png",
-    "name": "Chico Santos",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Chico Santos"
     },
     {
     "photo": "imagens/Duda.png",
-    "name": "Maria Sanches",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Maria Sanches"
     },
     {
     "photo": "imagens/Maria Salgado.png",
-    "name": "Maria Salgado",
-    "data_1": "2° Andar",
-    "data_2": "Leads",
-    "data_3": "Fundos"
+    "name": "Maria Salgado"
     },
     {
     "photo": "imagens/Mariana.png",
-    "name": "Mariana Araujo",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Mariana Araujo"
     },
     {
       "photo": "imagens/Marilia.png",
-      "name": "Marilia Oliveira",
-      "data_1": "3º Andar",
-      "data_2": "Comunicação",
-      "data_3": "Fundos"
+      "name": "Marilia Oliveira"
       },
     {
     "photo": "imagens/Marlon.png",
-    "name": "Marlon Ripka",
-    "data_1": "1º Andar",
-    "data_2": "Financeiro",
-    "data_3": "Frente"
+    "name": "Marlon Ripka"
     },
     {
     "photo": "imagens/Matheus Brotto.png",
-    "name": "Matheus Natario",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Matheus Natario"
     },
     {
     "photo": "imagens/Matheus Pereira.png",
-    "name": "Matheus Pereira",
-    "data_1": "3º Andar",
-    "data_2": "Exclusive Lounge",
-    "data_3": "Frente"
+    "name": "Matheus Pereira"
     },
     {
     "photo": "imagens/Matheus.png",
-    "name": "Matheus Santos",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Matheus Santos"
     },
     {
     "photo": "imagens/Nati Marques.png",
-    "name": "Natalia Marques",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Natalia Marques"
     },
     {
     "photo": "imagens/Nati Luiz.png",
-    "name": "Natália Luiz",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Natália Luiz"
     },
     {
     "photo": "imagens/Natalia Silva.png",
-    "name": "Natalia Silva",
-    "data_1": "1º Andar",
-    "data_2": "Aprendiz",
-    "data_3": "Fundos"
+    "name": "Natalia Silva"
     },
     {
     "photo": "imagens/Nicole.png",
-    "name": "Nicole Kollross",
-    "data_1": "3º Andar",
-    "data_2": "Comunicação",
-    "data_3": "Fundos"
+    "name": "Nicole Kollross"
     },
     {
     "photo": "imagens/Nicoly Paula.png",
-    "name": "Nicoly Paula",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Nicoly Paula"
     },
     {
     "photo": "imagens/Patricia.png",
-    "name": "Patricia Moreira",
-    "data_1": "1º Andar",
-    "data_2": "Adm",
-    "data_3": "Frente"
+    "name": "Patricia Moreira"
     },
     {
     "photo": "imagens/Pedro.png",
-    "name": "Pedro Fróis",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Pedro Fróis"
     },
     {
     "photo": "imagens/Pedro Silva.png",
-    "name": "Pedro Silva",
-    "data_1": "2º Andar",
-    "data_2": "Leads",
-    "data_3": "Fundos"
+    "name": "Pedro Silva"
     },
     {
     "photo": "imagens/Rafa.png",
-    "name": "Rafael Ivancheche",
-    "data_1": "3º Andar",
-    "data_2": "Design",
-    "data_3": "Fundos"
+    "name": "Rafael Ivancheche"
     },
     {
       "photo": "imagens/Renata.png",
-      "name": "Renata Otto",
-      "data_1": "3º Andar",
-      "data_2": "Comunicação",
-      "data_3": "Fundos"
+      "name": "Renata Otto"
     },
     {
     "photo": "imagens/Robson.png",
-    "name": "Robson Correia",
-    "data_1": "3º Andar",
-    "data_2": "Design",
-    "data_3": "Fundos"
+    "name": "Robson Correia"
     },
     {
     "photo": "imagens/Rute.png",
-    "name": "Rute Damasio",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Rute Damasio"
     },
     {
     "photo": "imagens/Sara.png",
-    "name": "Sara Lima",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Sara Lima"
     },
     {
     "photo": "imagens/Sandy.png",
-    "name": "Sandy Seixas",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Sandy Seixas"
     },
     {
     "photo": "imagens/Sonia.png",
-    "name": "Sonia Matzenbacher",
-    "data_1": "1º Andar",
-    "data_2": "Via Turismo",
-    "data_3": "Frente"
+    "name": "Sonia Matzenbacher"
     },
     {
       "photo": "imagens/Heitor.png",
-      "name": "Heitor Lipinski",
-      "data_1": "3º Andar",
-      "data_2": "Comunicação",
-      "data_3": "Fundos"
+      "name": "Heitor Lipinski"
       },
     {
     "photo": "imagens/Suzane.png",
-    "name": "Suzane Machado",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Suzane Machado"
     },
     {
     "photo": "imagens/Tatiana.png",
-    "name": "Tatiana Carlini",
-    "data_1": "2º Andar",
-    "data_2": "Relacionamento",
-    "data_3": "Fundos"
+    "name": "Tatiana Carlini"
     },
     {
     "photo": "imagens/Thai.png",
-    "name": "Thaiene Santos",
-    "data_1": "3º Andar",
-    "data_2": "Exclusive Lounge",
-    "data_3": "Frente"
+    "name": "Thaiene Santos"
     },
     {
     "photo": "imagens/Tiago.png",
-    "name": "Tiago Soares",
-    "data_1": "3º Andar",
-    "data_2": "Inteligência",
-    "data_3": "Frente"
+    "name": "Tiago Soares"
     },
     {
     "photo": "imagens/Valeska.png",
-    "name": "Valeska Tejada",
-    "data_1": "2º Andar",
-    "data_2": "RP",
-    "data_3": "Fundos"
+    "name": "Valeska Tejada"
     },
     {
     "photo": "imagens/Wesley.png",
-    "name": "Wesley Santos",
-    "data_1": "3º Andar",
-    "data_2": "TI",
-    "data_3": "Frente"
+    "name": "Wesley Santos"
     },
     {
     "photo": "imagens/Yas.png",
-    "name": "Yasminne Maia",
-    "data_1": "2º Andar",
-    "data_2": "Eventos",
-    "data_3": "Frente"
+    "name": "Yasminne Maia"
     }
-    
-    
-    
-   
-    
-]
+  ]
