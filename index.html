@@ -102,13 +102,13 @@
  
           // Criação do conteúdo da polaroid com HTML dinâmico
           polaroid.innerHTML = `
-<img src="${item.photo}" alt="${item.name}">
-<h3>${item.name}</h3>
-<div class="overlay">
-<p>Andar: ${item.data_1}</p>
-<p>Lugar: ${item.data_2}</p>
-              ${item.data_3 ? `<p>${item.data_3}</p>` : ""}
-</div>
+            <img src="${item.photo}" alt="${item.name}">
+            <h3>${item.name}</h3>
+            <div class="overlay">
+              <p>Andar: ${item.data_1}</p>
+              <p>Lugar: ${item.data_2}</p>
+                
+            </div>
           `;
  
           // Adiciona o evento de clique para alternar a exibição da sobreposição
