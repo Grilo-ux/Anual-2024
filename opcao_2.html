@@ -1,125 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Polaroid Cards</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-    body {
-      display: flex;
-      flex-direction: column; 
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      background: linear-gradient(150deg, rgba(136,196,66,1) 30%, rgba(13,149,159,1) 70%);
-      margin: 0 12px;
-    }
-    .card-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
-      gap: 8px;
-      width: 100%;
-      padding: 16px;
-    }
-    .polaroid {
-      position: relative;
-      width: 120px;
-      background-color: rgb(255, 255, 255);
-      padding: 10px;
-      border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      text-align: center;
-      cursor: pointer;
-      overflow: hidden;
-    }
-    .polaroid img {
-      width: 100%;
-      height: 120px; /* altura */
-      object-fit: cover;
-      border-radius: 5px;
-    }
-    .polaroid h3 {
-      margin-top: 10px;
-      font-size: 1em;
-      color: #333;
-      font-weight: bold;
-    }
-    .polaroid .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(3, 128, 70, 0.774); /* Fundo vermelho translúcido */
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.9em;
-      padding: 10px;
-      border-radius: 5px;
-      opacity: 0;
-      transition: opacity 0.3s ease;
-    }
-    .polaroid.show-overlay .overlay {
-      opacity: 1;
-    }
-    .title {
-      color: black;
-      font-family: sans-serif; 
-      margin-top: 10px
-    }
-  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4Network - UNIO 2024</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0 12px;
+        background: rgb(136, 196, 66);
+        background: linear-gradient(
+          150deg,
+          rgba(136, 196, 66, 1) 30%,
+          rgba(13, 149, 159, 1) 70%
+        );
+      }
+      .card-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); /* mesma largura */
+        gap: 8px;
+        width: 100%;
+        padding: 8px;
+      }
+      .card {
+        border-radius: 15px;
+        overflow: hidden;
+        width: 160px;/* largura */
+        height: 120px; /* altura */
+      }
+      .card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: transform 0.8s;
+        cursor: pointer;
+      }
+      .flipped .card-inner {
+        transform: rotateY(180deg);
+      }
+      .card-front,
+      .card-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 12px;
+        padding: 8px;
+        background-size: cover;
+        background-position: center;
+      }
+      .card-front {
+        background-color: #34c759;
+        background-blend-mode: overlay;
+      }
+      .card-back {
+        background-color: #007aff;
+        transform: rotateY(180deg);
+        background-blend-mode: overlay;
+      }
+      .card-info {
+        text-shadow: rgb(0, 0, 0) 2px 0 10px;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+      }
+      .photo-circle {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid white; /* Adiciona uma borda ao redor do círculo */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .photo-circle img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container" id="cardContainer"></div>
 
-</head>
-<body>
-  <h3 class="title">Descubra o seu local de Trabalho</h3> 
-  
-  <div class="card-container" id="cardContainer">
-  </div>
+    <script>
+      // Função para carregar o JSON e gerar os cards dinamicamente
+      fetch("dados.json")
+        .then((response) => response.json())
+        .then((data) => {
+          const cardContainer = document.getElementById("cardContainer");
 
+          data.forEach((item) => {
+            const card = document.createElement("div");
+            card.className = "card";
 
-  <script>
-    // Função para carregar o JSON e gerar os "Polaroids" dinamicamente
-    fetch("dados.json")
-      .then((response) => response.json())
-      .then((data) => {
-        // Embaralha o array de itens usando sort e uma função aleatória
-        data.sort(() => Math.random() - 0.5);
- 
-        const cardContainer = document.getElementById("cardContainer");
- 
-        data.forEach((item) => {
-          const polaroid = document.createElement("div");
-          polaroid.className = "polaroid";
- 
-          // Criação do conteúdo da polaroid com HTML dinâmico
-          polaroid.innerHTML = `
-<img src="${item.photo}" alt="${item.name}">
-<h3>${item.name}</h3>
-<div class="overlay">
-<p>Andar: ${item.data_1}</p>
-<p>Lugar: ${item.data_2}</p>
-              ${item.data_3 ? `<p>${item.data_3}</p>` : ""}
-</div>
-          `;
- 
-          // Adiciona o evento de clique para alternar a exibição da sobreposição
-          polaroid.addEventListener("click", () => {
-            polaroid.classList.toggle("show-overlay");
+            // Criação do conteúdo do card com HTML dinâmico
+            card.innerHTML = `
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="photo-circle">
+                            <img src="${item.photo}" alt="${item.name}">
+                        </div>
+                        <div class="card-info">
+                            <h3 style="text-align: center">${item.name}</h3>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <div class="photo-circle">
+                            <img src="${item.photo}" alt="${item.name}">
+                        </div>
+                        <div class="card-info">
+                            <h3 style="text-align: center">${item.name}</h3>
+                            <p>Andar: ${item.data_1}</p>
+                            <p>Lugar: ${item.data_2}</p>
+                            ${item.data_3 ? `<p>${item.data_3}</p>` : ""}
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Adiciona o evento de clique para alternar a rotação
+            card.addEventListener("click", () => {
+              card.classList.toggle("flipped");
+            });
+
+            cardContainer.appendChild(card);
           });
- 
-          cardContainer.appendChild(polaroid);
-        });
-      })
-      .catch((error) => console.error("Erro ao carregar JSON:", error));
-</script>
-</body>
+        })
+        .catch((error) => console.error("Erro ao carregar JSON:", error));
+    </script>
+  </body>
 </html>
